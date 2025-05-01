@@ -1,0 +1,33 @@
+# Ignore node_modules
+node_modules
+
+# Ignore logs
+*.log
+logs
+*.pid
+
+# Ignore environment files
+.env
+.env.* 
+
+# Ignore Docker-related files that shouldn't go into the image
+.dockerignore
+Dockerfile*
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore editor/project files
+.vscode
+.idea
+*.swp
+
+# Ignore build outputs
+dist
+build
+coverage
+
+# OS-specific
+.DS_Store
+Thumbs.db
