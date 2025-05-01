@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-    BACKEND_DIR = "backend"
-    FRONTEND_DIR = "frontend"
+    BACKEND_DIR =  "backend"
+    FRONTEND_DIR =  "frontend"
 
     JWT_SECRET = credentials('jwt_secret')
     VITE_AUTHORIZATION_TOKEN = credentials('vite_auth_token')
