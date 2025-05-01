@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/RohitSinghGusain17/elearning.git'
+        git branch: 'main', url: 'https://github.com/Pawan-kumar47129/docker.git'
       }
     }
 
@@ -51,7 +51,7 @@ pipeline {
 
     stage('Verify') {
       steps {
-        bat 'docker ps' // Check running containers
+        bat 'docker ps' 
       }
     }
   }
