@@ -76,7 +76,7 @@ function Login() {
         }}
       >
         {user && (<Header />)} {/*user present hoga tabhi header show */}
-        <div className="flex items-center justify-center h-[80vh]">
+        <div className="flex items-center justify-center h-[80vh] hover:bg-green-700">
           <form
             onSubmit={getInputData}
             className="flex flex-col justify-center items-center h-auto w-auto px-8 py-8 bg-slate-950  opacity-90  gap-4 rounded-lg"
